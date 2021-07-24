@@ -27,7 +27,7 @@
     <title>小玲瓏世界</title>
 </head>
 
-<body>
+<body onload="refresh();">
     <header>
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -69,25 +69,23 @@
     <article>
         <section id='intro'>
             <div class="container">
-
-                <button onclick="refresh();">重新整理已確認最新表單</button>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <table class="table">
                         <thead class="thead-light">
                             <tr>
-                                <th scope="col">#1#2</th>
+                                <th scope="col">#1</th>
                                 <th scope="col">名稱</th>
 
-                                <th scope="col">#3#4</th>
+                                <th scope="col">#3</th>
                                 <th scope="col">名稱</th>
 
-                                <th scope="col">#5#6</th>
+                                <th scope="col">#5</th>
                                 <th scope="col">名稱</th>
 
-                                <th scope="col">#7#8</th>
+                                <th scope="col">#7</th>
                                 <th scope="col">名稱</th>
 
-                                <th scope="col">#9#10</th>
+                                <th scope="col">#9</th>
                                 <th scope="col">名稱</th>
                             </tr>
                         </thead>
@@ -335,6 +333,8 @@
                         </tbody>
                     </table>
                 </nav>
+
+                <button type="button" class="btn btn-outline-dark" onclick="refresh();">重新整理已確認最新表單</button>
             </div>
         </section>
         <br><br><br><br><br><br><br><br><br><br><br>
