@@ -5,6 +5,7 @@
         for (var i = 1; i < 101; i++) {
             localStorage.setItem(i, document.getElementById(i).value);
         }
+        alert("已儲存!");
     }
 </script>
 
@@ -333,7 +334,7 @@
                         </tbody>
                     </table>
                 </nav>
-                <button type="button" class="btn btn-outline-dark">修改完成後，請按確認</button>
+                <button type="button" class="btn btn-outline-dark" onclick="save();">修改完成後，請按確認</button>
             </div>
 
         </section>
