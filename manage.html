@@ -2,7 +2,7 @@
 <html>
 <script>
     function save() {
-        for (var i = 1; i < 51; i++) {
+        for (var i = 1; i < 101; i++) {
             localStorage.setItem(i, document.getElementById(i).value);
         }
     }
@@ -68,86 +68,272 @@
     </header>
     <article>
         <section id='intro'>
-            <table border="2">
-                <tr>
-                    <td align="center" valign="center">十\個</td>
-                    <td align="center" valign="center">1</td>
-                    <td align="center" valign="center">2</td>
-                    <td align="center" valign="center">3</td>
-                    <td align="center" valign="center">4</td>
-                    <td align="center" valign="center">5</td>
-                    <td align="center" valign="center">6</td>
-                    <td align="center" valign="center">7</td>
-                    <td align="center" valign="center">8</td>
-                    <td align="center" valign="center">9</td>
-                    <td align="center" valign="center">10</td>
-                </tr>
-                <tr>
-                    <td align="center" valign="center">0</td>
-                    <td align="center" valign="center"><input type="text" id="1" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="2" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="3" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="4" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="5" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="6" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="7" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="8" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="9" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="10" value=""></td>
-                </tr>
-                <tr>
-                    <td align="center" valign="center">1</td>
-                    <td align="center" valign="center"><input type="text" id="11" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="12" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="13" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="14" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="15" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="16" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="17" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="18" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="19" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="20" value=""></td>
-                </tr>
-                <tr>
-                    <td align="center" valign="center">2</td>
-                    <td align="center" valign="center"><input type="text" id="21" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="22" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="23" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="24" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="25" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="26" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="27" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="28" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="29" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="30" value=""></td>
-                </tr>
-                <tr>
-                    <td align="center" valign="center">3</td>
-                    <td align="center" valign="center"><input type="text" id="31" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="32" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="33" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="34" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="35" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="36" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="37" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="38" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="39" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="40" value=""></td>
-                </tr>
-                <tr>
-                    <td align="center" valign="center">4</td>
-                    <td align="center" valign="center"><input type="text" id="41" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="42" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="43" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="44" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="45" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="46" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="47" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="48" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="49" value=""></td>
-                    <td align="center" valign="center"><input type="text" id="50" value=""></td>
-                </tr>
-            </table>
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <table class="table">
+                        <thead class="thead-light">
+                            <tr>
+                                <th scope="col">#1#2</th>
+                                <th scope="col">名稱</th>
+
+                                <th scope="col">#3#4</th>
+                                <th scope="col">名稱</th>
+
+                                <th scope="col">#5#6</th>
+                                <th scope="col">名稱</th>
+
+                                <th scope="col">#7#8</th>
+                                <th scope="col">名稱</th>
+
+                                <th scope="col">#9#10</th>
+                                <th scope="col">名稱</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td><input type="text" id="1" value=""></td>
+                                <th scope="row">21</th>
+                                <td><input type="text" id="21" value=""></td>
+                                <th scope="row">41</th>
+                                <td><input type="text" id="41" value=""></td>
+                                <th scope="row">61</th>
+                                <td><input type="text" id="61" value=""></td>
+                                <th scope="row">81</th>
+                                <td><input type="text" id="81" value=""></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td><input type="text" id="2" value=""></td>
+                                <th scope="row">22</th>
+                                <td><input type="text" id="22" value=""></td>
+                                <th scope="row">42</th>
+                                <td><input type="text" id="42" value=""></td>
+                                <th scope="row">62</th>
+                                <td><input type="text" id="62" value=""></td>
+                                <th scope="row">82</th>
+                                <td><input type="text" id="82" value=""></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td><input type="text" id="3" value=""></td>
+                                <th scope="row">23</th>
+                                <td><input type="text" id="23" value=""></td>
+                                <th scope="row">43</th>
+                                <td><input type="text" id="43" value=""></td>
+                                <th scope="row">63</th>
+                                <td><input type="text" id="63" value=""></td>
+                                <th scope="row">83</th>
+                                <td><input type="text" id="83" value=""></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td><input type="text" id="4" value=""></td>
+                                <th scope="row">24</th>
+                                <td><input type="text" id="24" value=""></td>
+                                <th scope="row">44</th>
+                                <td><input type="text" id="44" value=""></td>
+                                <th scope="row">64</th>
+                                <td><input type="text" id="64" value=""></td>
+                                <th scope="row">84</th>
+                                <td><input type="text" id="84" value=""></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">5</th>
+                                <td><input type="text" id="5" value=""></td>
+                                <th scope="row">25</th>
+                                <td><input type="text" id="25" value=""></td>
+                                <th scope="row">45</th>
+                                <td><input type="text" id="45" value=""></td>
+                                <th scope="row">65</th>
+                                <td><input type="text" id="65" value=""></td>
+                                <th scope="row">85</th>
+                                <td><input type="text" id="85" value=""></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">6</th>
+                                <td><input type="text" id="6" value=""></td>
+                                <th scope="row">26</th>
+                                <td><input type="text" id="26" value=""></td>
+                                <th scope="row">46</th>
+                                <td><input type="text" id="46" value=""></td>
+                                <th scope="row">66</th>
+                                <td><input type="text" id="66" value=""></td>
+                                <th scope="row">86</th>
+                                <td><input type="text" id="86" value=""></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">7</th>
+                                <td><input type="text" id="7" value=""></td>
+                                <th scope="row">27</th>
+                                <td><input type="text" id="27" value=""></td>
+                                <th scope="row">47</th>
+                                <td><input type="text" id="47" value=""></td>
+                                <th scope="row">67</th>
+                                <td><input type="text" id="67" value=""></td>
+                                <th scope="row">87</th>
+                                <td><input type="text" id="87" value=""></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">8</th>
+                                <td><input type="text" id="8" value=""></td>
+                                <th scope="row">28</th>
+                                <td><input type="text" id="28" value=""></td>
+                                <th scope="row">48</th>
+                                <td><input type="text" id="48" value=""></td>
+                                <th scope="row">68</th>
+                                <td><input type="text" id="68" value=""></td>
+                                <th scope="row">88</th>
+                                <td><input type="text" id="88" value=""></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">9</th>
+                                <td><input type="text" id="9" value=""></td>
+                                <th scope="row">29</th>
+                                <td><input type="text" id="29" value=""></td>
+                                <th scope="row">49</th>
+                                <td><input type="text" id="49" value=""></td>
+                                <th scope="row">69</th>
+                                <td><input type="text" id="69" value=""></td>
+                                <th scope="row">89</th>
+                                <td><input type="text" id="89" value=""></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">10</th>
+                                <td><input type="text" id="10" value=""></td>
+                                <th scope="row">30</th>
+                                <td><input type="text" id="30" value=""></td>
+                                <th scope="row">50</th>
+                                <td><input type="text" id="50" value=""></td>
+                                <th scope="row">70</th>
+                                <td><input type="text" id="70" value=""></td>
+                                <th scope="row">90</th>
+                                <td><input type="text" id="90" value=""></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">11</th>
+                                <td><input type="text" id="11" value=""></td>
+                                <th scope="row">31</th>
+                                <td><input type="text" id="31" value=""></td>
+                                <th scope="row">51</th>
+                                <td><input type="text" id="51" value=""></td>
+                                <th scope="row">71</th>
+                                <td><input type="text" id="71" value=""></td>
+                                <th scope="row">91</th>
+                                <td><input type="text" id="91" value=""></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">12</th>
+                                <td><input type="text" id="12" value=""></td>
+                                <th scope="row">32</th>
+                                <td><input type="text" id="32" value=""></td>
+                                <th scope="row">52</th>
+                                <td><input type="text" id="52" value=""></td>
+                                <th scope="row">72</th>
+                                <td><input type="text" id="72" value=""></td>
+                                <th scope="row">92</th>
+                                <td><input type="text" id="92" value=""></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">13</th>
+                                <td><input type="text" id="13" value=""></td>
+                                <th scope="row">33</th>
+                                <td><input type="text" id="33" value=""></td>
+                                <th scope="row">53</th>
+                                <td><input type="text" id="53" value=""></td>
+                                <th scope="row">73</th>
+                                <td><input type="text" id="73" value=""></td>
+                                <th scope="row">93</th>
+                                <td><input type="text" id="93" value=""></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">14</th>
+                                <td><input type="text" id="14" value=""></td>
+                                <th scope="row">34</th>
+                                <td><input type="text" id="34" value=""></td>
+                                <th scope="row">54</th>
+                                <td><input type="text" id="54" value=""></td>
+                                <th scope="row">74</th>
+                                <td><input type="text" id="74" value=""></td>
+                                <th scope="row">94</th>
+                                <td><input type="text" id="94" value=""></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">15</th>
+                                <td><input type="text" id="15" value=""></td>
+                                <th scope="row">35</th>
+                                <td><input type="text" id="35" value=""></td>
+                                <th scope="row">55</th>
+                                <td><input type="text" id="55" value=""></td>
+                                <th scope="row">75</th>
+                                <td><input type="text" id="75" value=""></td>
+                                <th scope="row">95</th>
+                                <td><input type="text" id="95" value=""></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">16</th>
+                                <td><input type="text" id="16" value=""></td>
+                                <th scope="row">36</th>
+                                <td><input type="text" id="36" value=""></td>
+                                <th scope="row">56</th>
+                                <td><input type="text" id="56" value=""></td>
+                                <th scope="row">76</th>
+                                <td><input type="text" id="76" value=""></td>
+                                <th scope="row">96</th>
+                                <td><input type="text" id="96" value=""></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">17</th>
+                                <td><input type="text" id="17" value=""></td>
+                                <th scope="row">37</th>
+                                <td><input type="text" id="37" value=""></td>
+                                <th scope="row">57</th>
+                                <td><input type="text" id="57" value=""></td>
+                                <th scope="row">77</th>
+                                <td><input type="text" id="77" value=""></td>
+                                <th scope="row">97</th>
+                                <td><input type="text" id="97" value=""></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">18</th>
+                                <td><input type="text" id="18" value=""></td>
+                                <th scope="row">38</th>
+                                <td><input type="text" id="38" value=""></td>
+                                <th scope="row">58</th>
+                                <td><input type="text" id="58" value=""></td>
+                                <th scope="row">78</th>
+                                <td><input type="text" id="78" value=""></td>
+                                <th scope="row">98</th>
+                                <td><input type="text" id="98" value=""></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">19</th>
+                                <td><input type="text" id="19" value=""></td>
+                                <th scope="row">39</th>
+                                <td><input type="text" id="39" value=""></td>
+                                <th scope="row">59</th>
+                                <td><input type="text" id="59" value=""></td>
+                                <th scope="row">79</th>
+                                <td><input type="text" id="79" value=""></td>
+                                <th scope="row">99</th>
+                                <td><input type="text" id="99" value=""></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">20</th>
+                                <td><input type="text" id="20" value=""></td>
+                                <th scope="row">40</th>
+                                <td><input type="text" id="40" value=""></td>
+                                <th scope="row">60</th>
+                                <td><input type="text" id="60" value=""></td>
+                                <th scope="row">80</th>
+                                <td><input type="text" id="80" value=""></td>
+                                <th scope="row">100</th>
+                                <td><input type="text" id="100" value=""></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </nav>
+            </div>
             <button onclick="save();">修改完成後，請按確認</button>
         </section>
         <br><br><br><br><br>

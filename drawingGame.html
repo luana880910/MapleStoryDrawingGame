@@ -2,9 +2,9 @@
 <html>
 <script>
     function game() {
-        returnN = Math.floor(Math.random() * 50) + 1;
+        returnN = Math.floor(Math.random() * 100) + 1;
         while (localStorage.getItem(returnN) == "") {
-            returnN = Math.floor(Math.random() * 50) + 1;
+            returnN = Math.floor(Math.random() * 100) + 1;
         };
         alert('您抽到的是' + returnN + '號，獎品名稱為：' + localStorage.getItem(returnN));
         localStorage.setItem(returnN, "");
